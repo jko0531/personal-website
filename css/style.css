@@ -1,0 +1,103 @@
+	body {
+    	padding-top: 70px;
+        text-align: center;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .navbar-default .navbar-brand{
+      color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      color: #ffffff;
+    }
+    
+    .navbar {
+      font-size: 12px !important;
+      z-index: 9999;
+      border: 0;
+      letter-spacing: 4px;
+      line-height: 1.42857143 !important;
+    }
+    
+    .container-fluid{
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+  	.bcolor {
+  		background-color: #1abc9c;
+  		color: #ffffff;
+  	}
+    
+    .blackcolor{
+      background-color: #333333;
+    }
+    
+    .blackcolor2{
+      background-color: #262626;
+    }
+    
+    .whitefont{
+      color: #ffffff;
+    }
+    
+    #parent {height: 700px;}
+
+    #floater{
+      float: left;
+      height: 50%;
+      width: 100%;
+      margin-bottom: -50px;
+
+    }
+    .cust-pad{
+      clear: both;
+      height:100px;
+    }
+    .slideanim {visibility:hidden;}
+    .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+    }
+    @keyframes slide {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+      } 
+      100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+      } 
+    }
+    @-webkit-keyframes slide {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+      } 
+      100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+      }
+    }
