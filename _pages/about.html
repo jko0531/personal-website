@@ -3,8 +3,68 @@ layout: default
 title: About Me
 permalink: /about/
 ---
+<style>
+.talk-block{
+    text-align:left;
+    height:200px;
+    /*padding-bottom:25px;*/
+    margin-bottom:50px;
+}
+img{
+    box-shadow: 1px 1px 2px #888;
+    width:196px;
+    height:196px;
+    padding:2px;
+}
+.text-container{
+    display:inline-block;
+    width:560px;
+    position:relative;
+}
+.talk-left-text{
+    margin-left:20px;
+    position:absolute;
+    top:-200px;
+    padding:20px;
+    padding-right:10px;
+    box-shadow:1px 1px 2px #888;
+}
+#talk-container{
+    margin-top:50px;
+    margin:25px;
+    margin-bottom:0px;
+    margin-top:25px;
+    padding:50px;
+    padding-top:25px;
+    padding-bottom:0px;
+    text-align:center;
+    display:inline-block;
+}
+#talk-content-container{
+    width:800px;
+    display:inline-block;
+}
+#send-off{
+    text-align:center;
+    box-shadow:1px 1px 2px #888;
+    height:auto;
+    padding:20px;
+    margin-right:32px;
+}
+</style>
 
-<h1 class="slideanim">Welcome! My name is Jason Ko and I am studying Computer Science at RPI.<br>
-My interests are programming, gaming, and traveling to cool and exotic places. <br>
-I am also involved in a few projects at my school. Feel free to check them out!<br>
-</h1>
+
+<div id = 'talk-container'>
+	<div id='talk-content-container'>
+		<div class='talk-block'>
+			<img class='img-left' src='img/profile.jpg'>
+			<div class='text-container'>
+				<div class='talk-left-text'>
+				Welcome! My name is Jason Ko and I am studying Computer Science at RPI.<br>
+				My interests are programming, gaming, and traveling to cool and exotic places. <br>
+				I am also involved in a few projects at my school. Feel free to check them out!<br>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
